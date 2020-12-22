@@ -43,8 +43,8 @@ Partindo de um conhecimento nulo sobre o tema, o código foi desenvolvido atrav�
 
 ```sh
 # Considerações Finais
-A partir de testes realizados, é possível inferir que o código é capaz de entregar os dados solicitados. 
+A partir de testes realizados, é possível concluir que o código é capaz de entregar os dados solicitados. 
 Como forma de aprimoramento do projeto, poderia ser utilizada uma função para replicação automática, 
-utilizando como base a página que contém o link de todos os jogadores 
+utilizando como base a página que contém o link de todos os jogadores. 
 
 ```

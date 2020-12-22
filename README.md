@@ -35,7 +35,7 @@ Node.js Command Prompt
 
 ```sh
 Partindo de um conhecimento nulo sobre o tema, o código foi desenvolvido através de três cenários:
-- Extensão Web Scraping do Chrome (necessário para entendimento de CSS das informações requeridas
+- Extensão Web Scraping do Chrome (necessário para entendimento de CSS das informações requeridas)
 - Criação do código em json a partir das alterações de um modelo já disponibilizado no github (https://github.com/IonicaBizau/scrape-it)
 - Utilização do aplicativo ParseHub como tentativa de automação
 
@@ -43,6 +43,8 @@ Partindo de um conhecimento nulo sobre o tema, o código foi desenvolvido atrav�
 
 ```sh
 # Considerações Finais
-A partir de testes realizados, é possível inferir que o código é capaz de entregar os dados solicitados. Como forma de aprimoramento do projeto, poderia ser utilizada uma função para replicação automática, utilizando como base a página que contém o link de todos os jogadores 
+A partir de testes realizados, é possível inferir que o código é capaz de entregar os dados solicitados. 
+Como forma de aprimoramento do projeto, poderia ser utilizada uma função para replicação automática, 
+utilizando como base a página que contém o link de todos os jogadores 
 
 ```

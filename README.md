@@ -22,6 +22,7 @@ Node.js Command Prompt```
   npm init
   npm i --save scrape-it
   
-2. Abra o código presente no arquivo jogadores_flamengo (https://github.com/carolina3maciel/intera)
-3. Salve o código na mesma pasta que foi criado através do prompt como index.js
-4. Digite o comando "node index.js" para que todas as informações dos jogadores apareça no próprio terminal
+2. Copie o código presente no arquivo "jogadores_flamengo" (<https://github.com/carolina3maciel/intera/blob/main/jogadores_flamengo>)
+3. Abra o Sublime Text ou qualquer outro aplicativo similar
+4. Cole o código copiado e salve como index.js
+4. Retorne ao Node.js Command Prompt e digite o comando "node index.js" para que todas as informações dos jogadores apareçam no próprio terminal

@@ -1,0 +1,359 @@
+const scrapeIt = require("scrape-it")
+
+
+// 1
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/diego-alves-carreira", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+
+// 2
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/cesar-bernardo-dutra", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+
+// 3
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/gabriel-batista-de-souza", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 4
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/hugo-de-souza-nogueira", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 5
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/rodrigo-caio-coquette-russo", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 6
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/matheus-soares-thuler", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 7
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/gustavo-henrique-vernes", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 8
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/leo-pereira-", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 9
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/joao-lucas-de-almeida-carvalho", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 10
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/mauricio-isla-", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 11
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/rene-rodrigues-martins", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 12
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/filipe-luis-", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 13
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/ramon-ramos-lima", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 14
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/willian-souza-arao-da-silva", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 15
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/gerson-santos-", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 16
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/thiago-", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 17
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/everton-augusto-de-barros-ribeiro", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 18
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/diego-ribas-da-cunha", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 19
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/giorgian-daniel-de-arrascaeta-benedetti", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 20
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/joao-pedro-vilardi-pinto-", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+
+// 21
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/gabriel-barbosa-almeida", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 22
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/Vitinho", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 23
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/bruno-henrique-pinto", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+
+// 24
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/lincoln-correa-dos-santos", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+// 25
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/pedro-rocha-neves", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+
+// 26
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/michael-richard-delgado-de-oliveira", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})
+
+
+
+// 27
+
+scrapeIt("https://www.flamengo.com.br/elencos/elenco-profissional/pedro-guilherme-abreu-dos-santos", {
+    nome: "h2.text-white" , 
+    posicao: "li.text-white:nth-of-type(1)" ,
+    foto: {selector: "img.d-none" , attr: "src"} }
+
+
+).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
+})

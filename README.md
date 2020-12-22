@@ -10,17 +10,21 @@
 Windows:
 
 ```sh
-Node.js Command Prompt```
+Node.js Command Prompt
+```
 
 
 
 ## Contributing
 
 1. Abra o Node.js Command Prompt e criar uma nova aplicação Node 
+```sh
+
   mkdir [insira o nome de uma pasta aqui]
   cd [insira o nome de uma pasta aqui]
   npm init
   npm i --save scrape-it
+  ```
   
 2. Copie o código presente no arquivo "jogadores_flamengo" (https://github.com/carolina3maciel/intera/blob/main/jogadores_flamengo)
 3. Abra o Sublime Text ou qualquer outro aplicativo similar

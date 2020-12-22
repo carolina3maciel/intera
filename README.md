@@ -17,7 +17,7 @@ Node.js Command Prompt
 
 ## Instruções
 
-1. Abra o Node.js Command Prompt e criar uma nova aplicação Node 
+1. Abra o Node.js Command Prompt e crie uma nova aplicação Node 
 ```sh
 
   mkdir [insira o nome de uma pasta aqui]

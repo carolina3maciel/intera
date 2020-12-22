@@ -5,7 +5,7 @@
   - URL da foto
 
 
-## Como usar o código?
+  ## Terminal
 
 Windows:
 
@@ -15,7 +15,7 @@ Node.js Command Prompt
 
 
 
-## Contributing
+## Instruções
 
 1. Abra o Node.js Command Prompt e criar uma nova aplicação Node 
 ```sh

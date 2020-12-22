@@ -30,3 +30,19 @@ Node.js Command Prompt
 3. Abra o Sublime Text ou qualquer outro aplicativo similar
 4. Cole o código copiado e salve como index.js
 4. Retorne ao Node.js Command Prompt e digite o comando "node index.js" para que todas as informações dos jogadores apareçam no próprio terminal
+
+## Raciocínio Lógico
+
+```sh
+Partindo de um conhecimento nulo sobre o tema, o código foi desenvolvido através de três cenários:
+- Extensão Web Scraping do Chrome (necessário para entendimento de CSS das informações requeridas
+- Criação do código em json a partir das alterações de um modelo já disponibilizado no github (https://github.com/IonicaBizau/scrape-it)
+- Utilização do aplicativo ParseHub como tentativa de automação
+
+```
+
+```sh
+# Considerações Finais
+A partir de testes realizados, é possível inferir que o código é capaz de entregar os dados solicitados. Como forma de aprimoramento do projeto, poderia ser utilizada uma função para replicação automática, utilizando como base a página que contém o link de todos os jogadores 
+
+```
